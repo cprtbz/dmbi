@@ -241,6 +241,9 @@ Constraint-based methods:
 -In addition, semi-supervised clustering employs, for example, pairwise constraints (such as pairs of instances labeled as belonging to the same or different clusters) in order to improve the quality of the resulting clustering.
 
 What is supervised and unsupervised learning ?
+Supervised: So, if you are training your machine learning task for every input with corresponding target, it is called supervised learning, which will be able to provide target for any new input after sufficient training. Your learning algorithm seeks a function from inputs to the respective targets. If the targets are expressed in some classes, it is called classification problem. Alternatively, if the target space is continuous, it is called regression problem.
+
+Unsupervised: Contrary, if you are training your machine learning task only with a set of inputs, it is called unsupervised learning, which will be able to find the structure or relationships between different inputs. Most important unsupervised learning is clustering, which will create different cluster of inputs and will be able to put any new input in appropriate cluster. Other than clustering, other unsupervised learning techniques are: anomaly detection, Hebbian Learning and learning Latent variable models such as Expectation–maximization algorithm, Method of moments (mean, covariance) and Blind signal separation techniques (Principal component analysis, Independent component analysis, Non-negative matrix factorization, Singular value decomposition) .
 
 Explain market bucket analysis ?
 
